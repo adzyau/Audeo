@@ -537,7 +537,7 @@ export const Player = ({ currentTrack, isPlaying, setIsPlaying }) => {
             <button
               onClick={() => setRepeatMode(repeatMode === 'off' ? 'all' : repeatMode === 'all' ? 'one' : 'off')}
               className={`transition-colors duration-200 ${
-                repeatMode !== 'off' ? 'text-orange-500' : 'text-gray-400 hover:text-white'
+                repeatMode !== 'off' ? 'text-audeo-orange' : 'text-gray-400 hover:text-white'
               }`}
             >
               <Icons.Repeat />
