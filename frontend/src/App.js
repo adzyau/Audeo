@@ -71,7 +71,7 @@ function App() {
             <div className="flex items-center space-x-6 mb-8">
               <button
                 onClick={() => setIsPlaying(!isPlaying)}
-                className="bg-green-500 text-black p-4 rounded-full hover:scale-105 transition-transform duration-200"
+                className="bg-orange-500 text-white p-4 rounded-full hover:scale-105 transition-transform duration-200"
               >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M8 5.14v14.72a.5.5 0 0 0 .8.4l11-7.36a.5.5 0 0 0 0-.8L8.8 4.74a.5.5 0 0 0-.8.4z"/>
