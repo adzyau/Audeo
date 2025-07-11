@@ -78,7 +78,7 @@ body {
 
 /* Text gradient for headings */
 .text-gradient {
-  background: linear-gradient(90deg, #1DB954, #1ed760);
+  background: linear-gradient(90deg, #FF6600, #e55a00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
