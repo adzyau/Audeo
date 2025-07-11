@@ -517,7 +517,7 @@ export const Player = ({ currentTrack, isPlaying, setIsPlaying }) => {
             <button
               onClick={() => setIsShuffle(!isShuffle)}
               className={`transition-colors duration-200 ${
-                isShuffle ? 'text-green-500' : 'text-gray-400 hover:text-white'
+                isShuffle ? 'text-orange-500' : 'text-gray-400 hover:text-white'
               }`}
             >
               <Icons.Shuffle />
