@@ -223,7 +223,7 @@ input:focus {
 }
 
 .custom-radio:checked {
-  border-color: #1DB954;
+  border-color: #FF6600;
 }
 
 .custom-radio:checked::after {
@@ -234,7 +234,7 @@ input:focus {
   transform: translate(-50%, -50%);
   width: 8px;
   height: 8px;
-  background: #1DB954;
+  background: #FF6600;
   border-radius: 50%;
 }
 
