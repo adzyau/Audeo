@@ -281,7 +281,7 @@ export const Card = ({ item, onClick, size = 'medium' }) => {
           alt={item.name}
           className="w-full aspect-square object-cover rounded-lg mb-4"
         />
-        <button className="absolute bottom-2 right-2 bg-green-500 text-black p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:scale-105">
+        <button className="absolute bottom-2 right-2 bg-orange-500 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:scale-105">
           <Icons.Play />
         </button>
       </div>
