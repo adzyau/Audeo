@@ -302,7 +302,7 @@ export const SearchView = ({ searchQuery, setSearchQuery, searchResults }) => (
           placeholder="What do you want to listen to?"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full bg-gray-800 text-white pl-10 pr-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500"
+          className="w-full bg-gray-800 text-white pl-10 pr-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-audeo-orange"
         />
       </div>
     </div>
