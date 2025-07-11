@@ -60,7 +60,7 @@ function App() {
                   {currentPlaylist?.description || "Your favorite songs collected in one place"}
                 </p>
                 <div className="flex items-center space-x-2 text-gray-400 text-sm">
-                  <span>Spotify</span>
+                  <span>Audeo</span>
                   <span>•</span>
                   <span>50 songs</span>
                   <span>•</span>
