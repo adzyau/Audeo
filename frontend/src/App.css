@@ -206,7 +206,7 @@ body {
 /* Focus styles for accessibility */
 button:focus,
 input:focus {
-  outline: 2px solid #1DB954;
+  outline: 2px solid #FF6600;
   outline-offset: 2px;
 }
 
