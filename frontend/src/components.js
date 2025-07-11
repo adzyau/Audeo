@@ -562,7 +562,7 @@ export const Player = ({ currentTrack, isPlaying, setIsPlaying }) => {
           </button>
           <div className="w-24 bg-gray-600 h-1 rounded-full">
             <div
-              className="bg-white h-1 rounded-full"
+              className="bg-orange-500 h-1 rounded-full"
               style={{ width: `${volume}%` }}
             />
           </div>
