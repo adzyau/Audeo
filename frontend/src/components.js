@@ -407,7 +407,7 @@ export const HomeView = ({ recentlyPlayed, featuredPlaylists, topArtists, setCur
           <div className="flex-1 px-4">
             <p className="text-white font-semibold">{item.name}</p>
           </div>
-          <button className="p-2 mr-4 bg-orange-500 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+          <button className="p-2 mr-4 bg-audeo-orange text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-audeo-orange-hover">
             <Icons.Play />
           </button>
         </div>
