@@ -54,13 +54,26 @@ body {
   transform: scale(1.05);
 }
 
-/* Spotify Green */
-.spotify-green {
-  background-color: #1DB954;
+/* Audeo Brand Colors */
+.audeo-orange {
+  background-color: #FF6600;
 }
 
-.spotify-green:hover {
-  background-color: #1ed760;
+.audeo-orange:hover {
+  background-color: #e55a00;
+}
+
+.audeo-gray {
+  background-color: #3E424B;
+}
+
+/* Text colors */
+.text-audeo-orange {
+  color: #FF6600;
+}
+
+.text-audeo-gray {
+  color: #3E424B;
 }
 
 /* Text gradient for headings */
