@@ -455,7 +455,7 @@ export const HomeView = ({ recentlyPlayed, featuredPlaylists, topArtists, setCur
                 alt={artist.name}
                 className="w-full aspect-square object-cover rounded-full mb-4"
               />
-              <button className="absolute bottom-2 right-2 bg-orange-500 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:scale-105">
+              <button className="absolute bottom-2 right-2 bg-audeo-orange text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:scale-105 hover:bg-audeo-orange-hover">
                 <Icons.Play />
               </button>
             </div>
