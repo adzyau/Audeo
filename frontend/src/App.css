@@ -380,7 +380,7 @@ input:focus {
 
 .search-input:focus {
   outline: none;
-  box-shadow: 0 0 0 2px #1DB954;
+  box-shadow: 0 0 0 2px #FF6600;
 }
 
 .search-input::placeholder {
