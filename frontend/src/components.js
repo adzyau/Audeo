@@ -579,7 +579,7 @@ export const Player = ({ currentTrack, isPlaying, setIsPlaying }) => {
 export const Sidebar = ({ currentView, setCurrentView, recentlyPlayed, setCurrentPlaylist }) => (
   <div className="w-64 bg-black h-full flex flex-col">
     <div className="p-6">
-      <h1 className="text-white text-2xl font-bold mb-8">Spotify</h1>
+      <h1 className="text-white text-2xl font-bold mb-8">Audeo</h1>
       <Navigation currentView={currentView} setCurrentView={setCurrentView} />
     </div>
 
